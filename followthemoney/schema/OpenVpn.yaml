@@ -1,0 +1,30 @@
+OpenVpn:
+  extends:
+    - Folder
+    - PlainText
+  label: OpenVPN config
+  plural: OpenVPN configs
+  matchable: false
+  generated: true
+  featured:
+    - title
+    - fileName
+    - mimeType
+    - parent
+  caption:
+    - title
+    - fileName
+  properties:
+    serverDomain:
+      label: "Server domain"
+      type: text
+    serverPort:
+      label: "Server port"
+      type: text
+    networkAddress:
+      label: "Network address"
+      type: text
+    subnetMask:
+      label: "Subnet mask"
+      type: text
+
